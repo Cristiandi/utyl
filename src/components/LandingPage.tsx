@@ -24,6 +24,7 @@ const tools = [
   {
     title: 'JSON Formatter',
     description: 'Prettify, validate, and quickly spot structural issues.',
+    href: '/tools/json-formatter',
   },
 ];
 
