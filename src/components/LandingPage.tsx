@@ -188,6 +188,28 @@ export default function LandingPage() {
             View starter tools
           </a>
         </section>
+
+        <footer className="mt-16 flex flex-wrap items-center justify-between gap-4 border-t border-slate-800/80 pt-6 text-sm text-slate-400">
+          <span>Made with AI by CristianDI</span>
+          <div className="flex items-center gap-4">
+            <a
+              className="hover:text-white"
+              href="https://github.com/cristiandi"
+              target="_blank"
+              rel="noreferrer"
+            >
+              GitHub
+            </a>
+            <a
+              className="hover:text-white"
+              href="https://www.linkedin.com/in/cristian-david-ippolito/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              LinkedIn
+            </a>
+          </div>
+        </footer>
       </main>
     </div>
   );
